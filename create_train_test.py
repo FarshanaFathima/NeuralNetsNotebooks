@@ -34,7 +34,3 @@ class Dataset():
 
     
     
-path = r"/Users/farshanafathima/Documents/playground/NeuralNetsNotebooks/data/names"
-dt_obj = Dataset(path)
-dt_obj.create_dataset()
-print(len(dt_obj.all_labels), len(dt_obj.all_names))
